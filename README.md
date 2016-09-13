@@ -26,6 +26,12 @@ docker run -d --name awstats --hostname ServerName \
 ```
 In this command, you will also run your server into host port 8080.
 
+
+## With docker-compose
+
+The `docker-compose.yml` is a file example to run container with `docker-compose up`
+
+
 ## Browse
 
 ```

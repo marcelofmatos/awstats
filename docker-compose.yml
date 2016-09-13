@@ -1,0 +1,8 @@
+example:
+  image: marcelofmatos/awstats_postfix
+#  build: .
+  volumes:
+    - /var/log/mail.log:/var/log/mail.log
+    - ./awstats.linoxide.conf:/usr/lib/cgi-bin/awstats/awstats.linoxide.conf
+  ports:
+    - 8080:80
